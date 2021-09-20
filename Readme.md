@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Даниил Кметь](https://up.htmlacademy.ru/htmlcss/32/user/237031).
-* Наставник: `Неизвестно`.
+- Студент: [Даниил Кметь](https://up.htmlacademy.ru/htmlcss/32/user/237031).
+- Наставник: [Александр Карташов](https://htmlacademy.ru/profile/id77080).
 
 ---
 
