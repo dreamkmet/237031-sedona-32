@@ -20,9 +20,11 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
-  background-color: #E5E5E5;
-  margin: 0;
-  padding: 0;
+  background-color: #ffffff;
+  width: 1200px;
+  margin: auto 40px;
+
+
 }
 
 .visually-hidden {
@@ -47,6 +49,23 @@ body {
   background-size: 100% auto;
 
 }
+
+.main-subscribe {
+  background-image: url("../images/subscribe-background.png");
+  width: 1200px;
+  height: 411px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.catalog-container {
+ background-image: url("../images/catalog-background.png");
+ width: 1200px;
+ height: 408px;
+ background-repeat: no-repeat;
+ background-size: 100% auto;
+}
+
 
 
 .main-navigation-list{
