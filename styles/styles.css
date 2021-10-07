@@ -23,8 +23,6 @@ body {
   background-color: #ffffff;
   width: 1200px;
   margin: auto 40px;
-
-
 }
 
 .visually-hidden {
@@ -47,7 +45,6 @@ body {
   height: 352px;
   background-repeat: no-repeat;
   background-size: 100% auto;
-
 }
 
 .main-subscribe {
@@ -59,16 +56,15 @@ body {
 }
 
 .catalog-container {
- background-image: url("../images/catalog-background.png");
- width: 1200px;
- height: 408px;
- background-repeat: no-repeat;
- background-size: 100% auto;
+  background-image: url("../images/catalog-background.png");
+  width: 1200px;
+  height: 408px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-bottom: 44px;
 }
 
-
-
-.main-navigation-list{
+.main-navigation-list {
   list-style: none;
   text-decoration: none;
 }
@@ -107,8 +103,4 @@ body {
 
 .pagination {
   list-style: none;
-}
-
-.catalog-container {
-  margin-bottom: 44px;
 }
