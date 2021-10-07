@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #ffffff;
+  width: 1200px;
+  margin: auto 40px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page-main-intro {
+  background-image: url("../images/page-main-intro-background.png");
+  width: 1200px;
+  height: 352px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.main-subscribe {
+  background-image: url("../images/subscribe-background.png");
+  width: 1200px;
+  height: 411px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.catalog-container {
+  background-image: url("../images/catalog-background.png");
+  width: 1200px;
+  height: 408px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-bottom: 44px;
+}
+
+.main-navigation-list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.user-navigation {
+  list-style: none;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.advice-list {
+  list-style: none;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.breadcrumbs-list {
+  list-style: none;
+}
+
+.catalog-filter-list {
+  list-style: none;
+}
+
+.sorting-list {
+  list-style: none;
+}
+
+.hotel-cards-list {
+  list-style: none;
+}
+
+.pagination {
+  list-style: none;
+}
