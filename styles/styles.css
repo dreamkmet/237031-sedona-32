@@ -108,3 +108,7 @@ body {
 .pagination {
   list-style: none;
 }
+
+.catalog-container {
+  margin-bottom: 44px;
+}
