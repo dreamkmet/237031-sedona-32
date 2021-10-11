@@ -19,7 +19,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: #000000;
   width: 1200px;
   margin: auto 40px;
@@ -100,6 +100,12 @@ body {
   width: 160px;
   height: 37px;
   border: none;
+}
+
+.features-wrapper {
+  background-color: #83b3d3;
+  width: 400px;
+  height: 384px;
 }
 
 .features-header p {
