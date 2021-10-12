@@ -89,6 +89,7 @@ body {
   text-decoration: none;
 }
 
+
 .hotel-cards-button {
   font-size: 16px;
   line-height: 21px;
@@ -161,6 +162,15 @@ body {
   height: 411px;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  color: #ffffff;
+}
+
+.catalog-filter {
+  padding-left: 71px;
+}
+
+.catalog-filter-group {
+  border: none;
 }
 
 .catalog-container {
@@ -169,7 +179,24 @@ body {
   height: 408px;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  margin-bottom: 44px;
+  color: #ffffff;
+}
+
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  padding-left: 71px;
+  padding-top: 35px;
+  margin-bottom: 5px;
+}
+
+.breadcrumbs-list-link {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-left: 111px;
 }
 
 .main-navigation-list {
@@ -228,6 +255,79 @@ body {
   margin: 0;
 }
 
+.advice-item h3 {
+  color: #000000;
+}
+
+.advice-item p {
+  color: #333333;
+}
+
+.hotel-search {
+  text-align: center;
+  margin-bottom: 91px;
+}
+
+.hotel-accent {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.hotel-description {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe-description {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.subscribe-form input {
+  font-size: 18px;
+  line-height: 26px;
+  width: 600px;
+  height: 60px;
+  background-color: #f2f2f2;
+  color: #000000;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 21px;
+}
+
+
+.main-subscribe-form button {
+  color: #ffffff;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #83b3d3;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  width: 200px;
+  height: 61px;
+}
+
 .social-list {
   list-style: none;
   padding: 0;
@@ -238,6 +338,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 45px;
 }
 
 .catalog-filter-list {
