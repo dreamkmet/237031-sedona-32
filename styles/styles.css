@@ -43,6 +43,7 @@ body {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
+  text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
   background-color: #756257;
@@ -69,14 +70,27 @@ body {
   text-decoration: none;
 }
 
-.hotel-cards-link {
+/* .hotel-cards-link {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
+  text-transform: uppercase;
   color: #ffffff;
   background-color: #756257;
   border-radius: 4px;
   text-decoration: none;
+} */
+
+.button-cards {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756257;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 10px 15px;
 }
 
 .contacts-phone {
@@ -89,10 +103,37 @@ body {
   text-decoration: none;
 }
 
+.hotel-cards-type {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.hotel-cards-price {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.hotel-cards-rating {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  background-color:  #F2F2F2;
+  border-radius: 4px;
+  width: 160px;
+  height: 37px;
+  padding: 10px;
+  text-transform: uppercase;
+}
 
 .hotel-cards-button {
   font-size: 16px;
   line-height: 21px;
+  font-weight: bold;
   color: #ffffff;
   background-color: #83b3d3;
   border-radius: 4px;
@@ -411,6 +452,7 @@ body {
   line-height: 26px;
   text-transform: uppercase;
   font-weight: bold;
+  color: #ffffff;
   background-color: #83b3d3;
   border: none;
   border-radius: 0 10px 10px 0;
@@ -464,6 +506,7 @@ body {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
+  font-weight: bold;
   color: #ffffff;
   text-decoration: none;
 
