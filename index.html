@@ -54,10 +54,12 @@
         </header>
         <ol class="features-list">
           <li class="features-item features-item-color">
-            <h3 class="features-title">Настоящий городок</h3>
-            <p class="features-number">-№1-</p>
-            <p class="features-description">Седона — не аттракцион для туристов, там течёт
-              своя жизнь</p>
+            <div class="features-wrapper">
+              <h3 class="features-title">Настоящий городок</h3>
+              <p class="features-number">-№1-</p>
+              <p class="features-description">Седона — не аттракцион для туристов, там течёт
+                своя жизнь</p>
+            </div>
             <img class="features-image features-image-city" src="images/features-image-city.jpg" width="800" height="384" alt="Фото городка Седона">
             <ul class="advice-list">
               <li class="advice-item">
@@ -80,11 +82,13 @@
           </li>
           <li class="features-item features-item-color">
             <img class="features-image features-image-bridge" src="images/features-image-bridge.jpg" width="800" height="384" alt="Фото моста">
-            <h3 class="features-title">Там есть
-              мост дьявола</h3>
-            <p class="features-number">-№2-</p>
-            <p class="features-description">Да, по нему можно пройти! Если вы осмелитесь,
-              разумеется</p>
+            <div class="features-wrapper">
+              <h3 class="features-title">Там есть
+                мост дьявола</h3>
+              <p class="features-number">-№2-</p>
+              <p class="features-description">Да, по нему можно пройти! Если вы осмелитесь,
+                разумеется</p>
+            </div>
           </li>
           <li class="features-item">
             <h3 class="features-title">Небольшая
@@ -120,9 +124,9 @@
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама,
           честное бойскаутское!</p>
-        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input type="text" name="email" placeholder="Ваш email">
-          <button type="submit" class="subscribe-button">Подписаться</button>
+        <form class="subscribe-form main-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+          <input class="subscribe-form-input" type="text" name="email" placeholder="Ваш email">
+          <button type="submit" class="button subscribe-button">Подписаться</button>
         </form>
       </section>
     </main>
@@ -153,8 +157,7 @@
       <div class="page-copyright">
         <h2 class="visually-hidden">Разработано</h2>
         <a class="page-copyright-link" href="https://htmlacademy.ru/">
-          <img class="page-copyright-image" src="images/page-copyright-image.svg" width="115" height="34"
-            alt="Ссылка на разработчика сайта">
+        <img class="page-copyright-image" src="images/page-copyright-image.svg" width="115" height="34" alt="Ссылка на разработчика сайта">
         </a>
       </div>
 
