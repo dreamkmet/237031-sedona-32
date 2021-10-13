@@ -122,7 +122,7 @@ body {
   line-height: 21px;
   text-align: center;
   color: #333333;
-  background-color:  #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 4px;
   width: 160px;
   height: 37px;
@@ -221,9 +221,12 @@ body {
 }
 
 .button-enter {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 16px;
-  line-height: 27px;
+  line-height: 21px;
   font-weight: bold;
+  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
@@ -234,6 +237,8 @@ body {
 }
 
 .button-reset {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
@@ -302,12 +307,18 @@ body {
 }
 
 .catalog-filter-input {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 23px;
   width: 144px;
   height: 48px;
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 4px;
 }
+
 
 .hotel-cards-item h3 {
   font-size: 24px;
@@ -430,9 +441,12 @@ body {
   font-weight: 400;
 }
 
-.subscribe-form input {
+.subscribe-form-input {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 18px;
   line-height: 26px;
+  font-weight: 400;
   width: 600px;
   height: 60px;
   background-color: #f2f2f2;
@@ -440,6 +454,32 @@ body {
   border: none;
   border-radius: 10px 0 0 10px;
   padding: 21px;
+  opacity: 60%;
+}
+
+:default::placeholder {
+  background: #f2f2f2;
+}
+
+:focus::placeholder {
+  background-color: #e6e6e6;
+  border: 3px solid #83b3d3;
+}
+
+:active::placeholder {
+  background: #ffffff;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+}
+
+:hover::placeholder {
+  background: #e6e6e6;
+}
+
+:invalid::placeholder {
+  background: #ffffff;
+  border: 2px solid #ff5757;
+  box-sizing: border-box;
 }
 
 .main-subscribe-form button {
@@ -447,8 +487,11 @@ body {
 }
 
 .subscribe-button {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 20px;
   line-height: 26px;
+  text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   color: #ffffff;
