@@ -39,7 +39,12 @@ body {
   text-decoration: none;
 }
 
-.user-navigation-link {
+.user-navigation-here {
+  width: 160px;
+  height: 37px;
+}
+
+.navigation-here-link {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -48,6 +53,7 @@ body {
   text-decoration: none;
   background-color: #756257;
   border-radius: 4px;
+  padding: 10px 34px;
 }
 
 .hotel-search-link {
@@ -60,6 +66,7 @@ body {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
+  padding: 17px 151px;
 }
 
 .cards-link-title {
@@ -556,7 +563,7 @@ body {
   font-weight: bold;
   color: #ffffff;
   text-decoration: none;
-
+  padding: 10px;
   background-color: #83b3d3;
 }
 
