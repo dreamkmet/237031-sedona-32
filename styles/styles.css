@@ -14,15 +14,27 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+  outline: 5px solid red;
+  outline-offset: -5px;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   background-color: #ffffff;
   color: #000000;
-  width: 1200px;
-  margin: auto 40px;
+}
+
+.main-container {
+  flex-grow: 1;
+  margin: 0 auto;
 }
 
 .page-header {
@@ -30,9 +42,14 @@ body {
   background-color: #ffffff;
 }
 
+.main-logo-image {
+  display: block;
+}
+
 .main-navigation {
   display: flex;
-  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-navigation-item {
@@ -63,6 +80,11 @@ body {
   background-color: #756257;
   border-radius: 4px;
   padding: 10px 34px;
+}
+
+.wellcome-image {
+  display: block;
+  margin: 0 auto;
 }
 
 .hotel-search-link {
@@ -149,10 +171,24 @@ body {
   border: none;
 }
 
+
+
 .features-wrapper {
   background-color: #83b3d3;
-  width: 400px;
   height: 384px;
+}
+
+.features-image-city {
+  display: block;
+}
+
+.features-image-bridge {
+  display: block;
+}
+
+.features-header {
+  width: 720px;
+  margin: 0 auto;
 }
 
 .features-header p {
@@ -349,24 +385,31 @@ body {
 }
 
 .main-navigation-list {
-  display: flex;
   list-style: none;
   text-decoration: none;
   padding: 0;
-  margin: 20px 71px;
+  margin: 0;
+  width: 420px;
 }
 
 .user-navigation {
+  width: 290px;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-left: auto;
 }
 
 .features-list {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.features-image {
+  display: block;
 }
 
 .features-title {
@@ -391,6 +434,10 @@ body {
   color: #333333;
 }
 
+.features-item {
+  width: 400px;
+}
+
 .features-item-color h3 {
   color: #ffffff;
 }
@@ -400,6 +447,8 @@ body {
 }
 
 .advice-list {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   margin: 0;
