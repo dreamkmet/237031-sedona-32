@@ -59,7 +59,11 @@ body {
 
 .footer-contacts {
   width: 720px;
-  text-align: center;
+  margin-left: 256px;
+}
+
+.page-copyright {
+  margin-right: 75px;
 }
 
 .page-copyright-image {
@@ -72,7 +76,7 @@ body {
   justify-content: space-between;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-left: 72px;
 }
 
 .social-list-image {
