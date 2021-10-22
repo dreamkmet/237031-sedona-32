@@ -59,11 +59,28 @@ body {
   margin: 0 auto;
 }
 
+.footer-contacts {
+  width: 720px;
+  text-align: center;
+}
+
+.page-copyright-image {
+  display: block;
+}
+
 .social-list {
   width: 70px;
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+.social-list-image {
+  display: block;
+}
+
 
 .main-logo-image {
   display: block;
@@ -595,12 +612,6 @@ body {
   border-radius: 0 10px 10px 0;
   width: 200px;
   height: 61px;
-}
-
-.social-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .breadcrumbs-list {
