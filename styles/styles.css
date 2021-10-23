@@ -36,7 +36,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-  background-color: #ffffff;
+  background-color: #F2F2F2;
   color: #000000;
 }
 
@@ -45,6 +45,10 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .page-header {
   color: #000000;
   background-color: #ffffff;
@@ -83,14 +87,18 @@ body {
   display: block;
 }
 
+.logo {
+  width:138px;
+  margin-right: 198px;
+}
 
 .main-logo-image {
   display: block;
-  margin-left: 110px;
 }
 
 .main-navigation {
   display: flex;
+  justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
 }
@@ -98,11 +106,6 @@ body {
 .main-navigation-item {
   margin-right: 33px;
 }
-
-.main-navigation-item:nth-child(1) {
-  margin-left: 31px;
-}
-
 
 .main-navigation-link {
   font-size: 20px;
@@ -432,13 +435,13 @@ body {
   padding: 0;
   margin: 0;
   width: 420px;
+  margin-left: 71px;
 }
 
 .user-navigation {
   width: 290px;
   list-style: none;
   padding: 0;
-  margin-left: auto;
 }
 
 .features-list {
