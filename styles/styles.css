@@ -298,8 +298,19 @@ body {
   padding-left: 71px;
 }
 
+.button-wrapper {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
 .catalog-filter-group {
   border: none;
+  width: 150px;
+}
+
+.catalog-filter-price {
+  display: flex;
 }
 
 .catalog-filter-title {
@@ -343,7 +354,6 @@ body {
 
 .background-wrapper {
   background-image: url("../images/catalog-background.jpg");
-  width: 1200px;
   height: 408px;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -351,13 +361,17 @@ body {
   margin-bottom: 44px;
 }
 
+.inner-header {
+  display: flex;
+  flex-direction: column;
+}
 
 .inner-header-title {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
   padding-left: 71px;
-  padding-top: 35px;
+  padding-top: 30px;
   margin-bottom: 5px;
 }
 
@@ -620,6 +634,12 @@ body {
   border: none;
   border-radius: 0 10px 10px 0;
   padding: 18px 35px;
+}
+
+.catalog-filter-wrapper {
+  width: 1057px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .breadcrumbs-list {
