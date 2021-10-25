@@ -53,12 +53,17 @@ body {
 .sorting-form {
   width: 528px;
   margin-left: auto;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .hotels-found {
-  margin-top: 50px;
   margin-bottom: 45px;
+}
+
+.hotel-cards-container {
+ width: 1057px;
+ margin: 0 auto;
+ display: flex;
 }
 
 .sorting-container {
@@ -449,6 +454,7 @@ body {
   padding: 19px 10px;
 }
 
+
 .hotel-cards-item h3 {
   font-size: 24px;
   line-height: 31px;
@@ -694,6 +700,8 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .pagination {
