@@ -462,6 +462,10 @@ body {
   color: #000000;
 }
 
+.download-button-inner {
+  margin-bottom: 61px;
+}
+
 .download-button {
   font-family: "PT sans", sans-serif;
   font-style: normal;
@@ -473,8 +477,8 @@ body {
   background-color: #83b3d3;
   border: none;
   border-radius: 4px;
-  margin-bottom: 61px;
   padding: 20px 240px;
+  display: flex; */
 }
 
 .main-navigation-list {
@@ -705,9 +709,17 @@ body {
 }
 
 .pagination {
+  width: 258px;
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.pagination-container {
+  width: 1057px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .pagination-item {
