@@ -121,20 +121,18 @@
 
         <fieldset class="catalog-filter-group catalog-filter-price">
           <legend class="catalog-filter-title">Стоимость, ₽::</legend>
-          <label class="catalog-filter-label">от
-            <input class="catalog-filter-input" type="number" name="min-price">
+          <label class="catalog-filter-label">
+            <input class="catalog-filter-input" type="number" name="min-price">от
           </label>
-          <label class="catalog-filter-label">до
-            <input class="catalog-filter-input" type="number" name="max-price">
+          <label class="catalog-filter-label">
+            <input class="catalog-filter-input" type="number" name="max-price">до
           </label>
-          <div class="button-price-wrapper">
           <button class="range-toggle toggle-min" type="button">
             <span class="visually-hidden">Изменить минимальную цену.</span>
           </button>
           <button class="range-toggle toggle-max" type="button">
             <span class="visually-hidden">Изменить максимальную цену.</span>
           </button>
-        </div>
         </fieldset>
         <div class="button-wrapper">
           <button class="button button-enter" type="submit">Применить</button>
@@ -146,34 +144,36 @@
         </div>
 
     <section class="sorting">
-      <h2 class="visually-hidden">Вывод результатов поиска гостиниц</h2>
-      <p class="hotels-found">Найдено гостиниц: 38</p>
-      <form class="sorting-form">
-        <label class="visually-hidden" for="sorting">Сортировка
-        </label>
-        <select class="select-control" id="sorting" name="sorting">
-          <option value="cheap-first">Сначала дешевые</option>
-          <option value="dear-first">Сначала дорогие</option>
-        </select>
-        <button class="visually-hidden" type="button">Отсоритировать гостиницы</button>
-      </form>
-      <ul class="sorting-list">
-        <li class="sorting-list-item">
-          <a class="sorting-list-icon" href="#">
-            <span class="visually-hidden">Показать таблицей</span>
-          </a>
-        </li>
-        <li class="sorting-list-item">
-          <a class="sorting-list-icon" href="#">
-            <span class="visually-hidden">Показать карточками</span>
-          </a>
-        </li>
-        <li class="sorting-list-item">
-          <a class="sorting-list-icon icon-active" href="#">
-            <span class="visually-hidden">Показать списком</span>
-          </a>
-        </li>
-      </ul>
+      <div class="sorting-container">
+        <h2 class="visually-hidden">Вывод результатов поиска гостиниц</h2>
+        <p class="hotels-found">Найдено гостиниц: 38</p>
+        <form class="sorting-form">
+          <label class="visually-hidden" for="sorting">Сортировка
+          </label>
+          <select class="select-control" id="sorting" name="sorting">
+            <option value="cheap-first">Сначала дешевые</option>
+            <option value="dear-first">Сначала дорогие</option>
+          </select>
+          <button class="visually-hidden" type="button">Отсоритировать гостиницы</button>
+        </form>
+        <ul class="sorting-list">
+          <li class="sorting-list-item">
+            <a class="sorting-list-icon" href="#">
+              <span class="visually-hidden">Показать таблицей</span>
+            </a>
+          </li>
+          <li class="sorting-list-item">
+            <a class="sorting-list-icon" href="#">
+              <span class="visually-hidden">Показать карточками</span>
+            </a>
+          </li>
+          <li class="sorting-list-item">
+            <a class="sorting-list-icon icon-active" href="#">
+              <span class="visually-hidden">Показать списком</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="hotel-cards">
@@ -181,7 +181,8 @@
       <ul class="hotel-cards-list">
         <li class="hotel-cards-item">
           <a class="hotel-cards-link cards-link-title" href="#">
-            <img class="hotel-cards-image" src="images/hotels/amara-resort.jpg" width="180" height="120" alt="Изображение гостиницы Amara Resort & Spa">
+            <img class="hotel-cards-image" src="images/hotels/amara-resort.jpg" width="180" height="120"
+              alt="Изображение гостиницы Amara Resort & Spa">
             <h3 class="hotel-cards-title">Amara Resort & Spa</h3>
           </a>
           <span class="hotel-cards-type">Гостиница</span>
@@ -195,7 +196,8 @@
         </li>
         <li class="hotel-cards-item">
           <a class="hotel-cards-link cards-link-title" href="#">
-            <img class="hotel-cards-image" src="images/hotels/desert-quail-inn.jpg" width="180" height="120" alt="Изображение мотеля Desert Quail Inn">
+            <img class="hotel-cards-image" src="images/hotels/desert-quail-inn.jpg" width="180" height="120"
+              alt="Изображение мотеля Desert Quail Inn">
             <h3 class="hotel-cards-title">Desert Quail Inn</h3>
           </a>
           <span class="hotel-cards-type">Мотель</span>
@@ -209,7 +211,8 @@
         </li>
         <li class="hotel-cards-item">
           <a class="hotel-cards-link cards-link-title" href="#">
-            <img class="hotel-cards-image" src="images/hotels/villas-at-poco-diablo.jpg" width="180" height="120" alt="Изображение апартаментов Villas at Poco Diablo">
+            <img class="hotel-cards-image" src="images/hotels/villas-at-poco-diablo.jpg" width="180" height="120"
+              alt="Изображение апартаментов Villas at Poco Diablo">
             <h3 class="hotel-cards-title">Villas at Poco Diablo</h3>
           </a>
           <span class="hotel-cards-type">Апартаменты</span>
@@ -223,7 +226,8 @@
         </li>
         <li class="hotel-cards-item">
           <a class="hotel-cards-link cards-link-title" href="#">
-            <img class="hotel-cards-image" src="images/hotels/greentree-inn.jpg" width="180" height="120" alt="Изображение гостиницы GreenTree Inn">
+            <img class="hotel-cards-image" src="images/hotels/greentree-inn.jpg" width="180" height="120"
+              alt="Изображение гостиницы GreenTree Inn">
             <h3 class="hotel-cards-title">GreenTree Inn</h3>
           </a>
           <span class="hotel-cards-type">Гостиница</span>

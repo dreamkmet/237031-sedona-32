@@ -49,6 +49,25 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+.sorting-form {
+  width: 528px;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.hotels-found {
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.sorting-container {
+  width: 1057px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-header {
   color: #000000;
   background-color: #ffffff;
@@ -295,24 +314,24 @@ body {
 }
 
 .catalog-filter {
-  padding-left: 71px;
-}
-
-.button-wrapper {
-  width: 180px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin: 0 71px;
 }
 
 .catalog-filter-group {
   border: none;
-  width: 150px;
+  width: 170px;
 }
 
 .catalog-filter-price {
   display: flex;
 }
 
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .catalog-filter-title {
   font-size: 20px;
   line-height: 26px;
@@ -332,6 +351,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 18px 35px;
+  margin-bottom: 20px;
 }
 
 .button-reset {
@@ -340,6 +360,7 @@ body {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  background: inherit;
   text-align: center;
   border: none;
   color: #ffffff;
@@ -352,14 +373,22 @@ body {
   font-weight: 400;
 }
 
+.control-input {
+ width: 20px;
+ height: 20px;
+}
+
 .background-wrapper {
   background-image: url("../images/catalog-background.jpg");
   height: 408px;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   color: #ffffff;
   margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .inner-header {
   display: flex;
@@ -370,8 +399,8 @@ body {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
-  padding-left: 71px;
-  padding-top: 30px;
+  margin-left: 71px;
+  margin-top: 30px;
   margin-bottom: 5px;
 }
 
@@ -387,7 +416,6 @@ body {
   line-height: 39px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 42px;
 }
 
 .select-control {
@@ -410,15 +438,16 @@ body {
   font-family: "PT sans", sans-serif;
   font-style: normal;
   color: #ffffff;
+  background: inherit;
   font-size: 18px;
   line-height: 23px;
-  width: 144px;
+  width: 140px;
   height: 48px;
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 4px;
+  padding: 19px 10px;
 }
-
 
 .hotel-cards-item h3 {
   font-size: 24px;
