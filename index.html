@@ -7,40 +7,44 @@
   <link rel="stylesheet" href="styles/styles.css">
 </head>
   <body>
-    <header class="page-header">
-      <nav class="main-navigation">
-        <ul class="main-navigation-list">
-          <li class="main-navigation-item">
-            <a class="main-navigation-link" href="index.html">Главная</a>
-          </li>
-          <li class="main-navigation-item">
-            <a class="main-navigation-link" href="#">О Седоне</a>
-          </li>
-          <li class="main-navigation-item">
-            <a class="main-navigation-link" href="catalog.html">Гостиницы</a>
-          </li>
-        </ul>
-        <a class="main-logo" href="index.html">
-          <img class="main-logo-image" src="images/main-logo-image.svg" width="138" height="70" alt="Логотип сайта Sedona">
-        </a>
-        <ul class="user-navigation">
-          <li class="user-navigation-item">
-            <a class="user-navigation-link user-navigation-link-search" href="#">
-              <span class="visually-hidden">Поиск</span>
+    <div class="container">
+      <header class="page-header">
+        <nav class="main-navigation">
+          <ul class="main-navigation-list">
+            <li class="main-navigation-item">
+              <a class="main-navigation-link" href="index.html">Главная</a>
+            </li>
+            <li class="main-navigation-item">
+              <a class="main-navigation-link" href="#">О Седоне</a>
+            </li>
+            <li class="main-navigation-item">
+              <a class="main-navigation-link" href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+          <div class="logo">
+            <a class="main-logo" href="index.html">
+              <img class="main-logo-image" src="images/main-logo-image.svg" width="138" height="70"
+                alt="Логотип сайта Sedona">
             </a>
-          </li>
-          <li class="user-navigation-item">
-            <a class="user-navigation-link user-navigation-link-favorites" href="#">
-              <span class="visually-hidden">Избранное</span>
-            </a>
-          </li>
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">Хочу сюда</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="page-main">
+          </div>
+          <ul class="user-navigation">
+            <li class="user-navigation-item">
+              <a class="user-navigation-link user-navigation-link-search" href="#">
+                <span class="visually-hidden">Поиск</span>
+              </a>
+            </li>
+            <li class="user-navigation-item">
+              <a class="user-navigation-link user-navigation-link-favorites" href="#">
+                <span class="visually-hidden">Избранное</span>
+              </a>
+            </li>
+            <li class="user-navigation-item user-navigation-here">
+              <a class="user-navigation-link navigation-here-link" href="#">Хочу сюда</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <main class="main-container page-main">
       <section class="page-main-intro">
         <h1 class="visually-hidden">Городок Седона</h1>
         <img class="wellcome-image" src="images/wellcome-image.svg" width="457" height="350" alt="Welcome to the gorgeous Sedona">
@@ -55,12 +59,15 @@
         <ol class="features-list">
           <li class="features-item features-item-color">
             <div class="features-wrapper">
+              <div class="features-text features-text-color">
               <h3 class="features-title">Настоящий городок</h3>
               <p class="features-number">-№1-</p>
               <p class="features-description">Седона — не аттракцион для туристов, там течёт
                 своя жизнь</p>
+              </div>
+              <img class="features-image features-image-city" src="images/features-image-city.jpg" width="800" height="384"
+                alt="Фото городка Седона">
             </div>
-            <img class="features-image features-image-city" src="images/features-image-city.jpg" width="800" height="384" alt="Фото городка Седона">
             <ul class="advice-list">
               <li class="advice-item">
                 <h3 class="advice-title">Жильё</h3>
@@ -81,13 +88,16 @@
             </ul>
           </li>
           <li class="features-item features-item-color">
-            <img class="features-image features-image-bridge" src="images/features-image-bridge.jpg" width="800" height="384" alt="Фото моста">
             <div class="features-wrapper">
-              <h3 class="features-title">Там есть
-                мост дьявола</h3>
-              <p class="features-number">-№2-</p>
-              <p class="features-description">Да, по нему можно пройти! Если вы осмелитесь,
-                разумеется</p>
+              <img class="features-image features-image-bridge" src="images/features-image-bridge.jpg" width="800" height="384"
+                alt="Фото моста">
+              <div class="features-text features-text-color">
+                <h3 class="features-title">Там есть
+                  мост дьявола</h3>
+                <p class="features-number">-№2-</p>
+                <p class="features-description">Да, по нему можно пройти! Если вы осмелитесь,
+                  разумеется</p>
+              </div>
             </div>
           </li>
           <li class="features-item">
@@ -160,7 +170,7 @@
         <img class="page-copyright-image" src="images/page-copyright-image.svg" width="115" height="34" alt="Ссылка на разработчика сайта">
         </a>
       </div>
-
     </footer>
+   </div>
   </body>
 </html>
