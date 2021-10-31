@@ -85,13 +85,13 @@ body {
   margin: 0 auto;
 }
 
-.footer-contacts {
-  width: 720px;
-  margin-left: 256px;
-}
-
 .page-copyright {
   margin-right: 75px;
+}
+
+.page-copyright-link {
+  display: block;
+  padding: 20px 10px;
 }
 
 .page-copyright-image {
@@ -107,6 +107,11 @@ body {
   margin-left: 72px;
 }
 
+.social-list-link {
+  display: block;
+  padding: 20px 10px;
+}
+
 .social-list-image {
   display: block;
 }
@@ -114,6 +119,10 @@ body {
 .logo {
   width:138px;
   margin-right: 198px;
+}
+
+.main-logo-link {
+  display: block;
 }
 
 .main-logo-image {
@@ -124,10 +133,6 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-}
-
-.main-navigation-item {
-  margin-right: 33px;
 }
 
 .main-navigation-link {
@@ -141,12 +146,24 @@ body {
   padding: 20px 15px;
 }
 
-.user-navigation-here {
-  width: 160px;
-  height: 37px;
+.user-navigation-link {
+  display: block;
+  padding: 20px 15px;
 }
 
-.navigation-here-link {
+.user-navigation-link-search {
+  width: 18px;
+  min-height: 18px;
+}
+
+.user-navigation-link-favorites {
+  width: 32px;
+  min-height: 27px;
+}
+
+.user-navigation-link-here {
+  width: 160px;
+  min-height: 37px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -197,6 +214,8 @@ body {
 }
 
 .contacts-phone {
+  display: block;
+  padding: 20px 10px;
   font-size: 40px;
   line-height: 40px;
   font-weight: inherit;
@@ -270,6 +289,7 @@ body {
 .features-header {
   width: 720px;
   margin: 0 auto;
+  margin-bottom: 79px;
 }
 
 .features-header p {
@@ -284,6 +304,7 @@ body {
   text-transform: uppercase;
   width: 720px;
   height: 80px;
+  margin-bottom: 25px;
 }
 
 .features-intro {
@@ -311,12 +332,15 @@ body {
   height: 352px;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  margin-bottom: 61px;
 }
 
-.main-subscribe {
+.subscribe-wrapper {
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/subscribe-background.jpg");
   width: 1200px;
-  height: 411px;
+  min-height: 411px;
   background-repeat: no-repeat;
   background-size: 100% auto;
   color: #ffffff;
@@ -489,6 +513,7 @@ body {
 
 .main-navigation-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   text-decoration: none;
   padding: 0;
@@ -497,10 +522,13 @@ body {
   margin-left: 71px;
 }
 
-.user-navigation {
+.user-navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   width: 290px;
   list-style: none;
   padding: 0;
+  margin-right: 71px;
 }
 
 .features-list {
@@ -511,6 +539,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 91px;
 }
 
 .features-item:nth-child(1) {
@@ -531,6 +560,24 @@ body {
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 97px;
+  margin-bottom: 26px;
+}
+
+.advice-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 184px;
+  margin-bottom: 26px;
+}
+
+.advice-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  margin-bottom: 79px;
 }
 
 .features-number {
@@ -538,6 +585,7 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  margin-bottom: 26px;
 }
 
 .features-description {
@@ -545,6 +593,7 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  margin-bottom: 77px;
 }
 
 .features-item {
@@ -573,7 +622,6 @@ body {
   margin: 0;
 }
 
-
 .advice-item h3 {
   color: #000000;
 }
@@ -593,6 +641,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
+  margin-bottom: 15px;
 }
 
 .hotel-description {
@@ -611,18 +660,22 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin-top: 71px;
+  margin-bottom: 15px;
 }
 
 .subscribe-description {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+  margin-bottom: 26px;
 }
 
 .subscribe-form {
   display: flex;
   width: 800px;
   margin: 0 auto;
+  margin-bottom: 94px;
 }
 
 .subscribe-form-input {
