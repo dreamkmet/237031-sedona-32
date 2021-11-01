@@ -87,6 +87,7 @@ body {
 
 .page-copyright {
   margin-right: 75px;
+  margin-top: 42px;
 }
 
 .page-copyright-link {
@@ -98,18 +99,30 @@ body {
   display: block;
 }
 
+.footer-social {
+  max-width: 230px;
+  margin-left: 72px;
+  margin-top: 50px;
+}
+
 .social-list {
-  width: 70px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
   padding: 0;
-  margin-left: 72px;
+}
+
+.social-list-item {
+  padding-right: 30px;
+}
+
+.social-list-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .social-list-link {
   display: block;
-  padding: 20px 10px;
 }
 
 .social-list-image {
@@ -223,6 +236,11 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.footer-contacts {
+  margin-top: 40px;
+  width: 360px;
 }
 
 .hotel-cards-type {
