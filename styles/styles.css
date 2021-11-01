@@ -51,13 +51,15 @@ body {
 }
 
 .sorting-form {
-  width: 528px;
-  margin-left: auto;
-  margin-top: 25px;
+  min-width: 287px;
+  margin-top: 44px;
 }
 
 .hotels-found {
+  min-width: 350px;
+  margin-top: 48px;
   margin-bottom: 45px;
+  margin-right: auto;
 }
 
 .hotel-cards-container {
@@ -70,7 +72,6 @@ body {
   width: 1057px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
 }
 
 .page-header {
@@ -115,6 +116,7 @@ body {
 
 .social-list-item {
   padding-right: 30px;
+  margin-bottom: 8px;
 }
 
 .social-list-item:nth-child(3n) {
@@ -432,9 +434,9 @@ body {
 
 .background-wrapper {
   background-image: url("../images/catalog-background.jpg");
-  height: 408px;
+  min-height: 408px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   color: #ffffff;
   margin-bottom: 44px;
   display: flex;
@@ -461,6 +463,7 @@ body {
   line-height: 21px;
   font-weight: 400;
   padding-left: 111px;
+  margin-right: 26px;
 }
 
 .hotels-found {
@@ -767,6 +770,7 @@ body {
 }
 
 .breadcrumbs-list {
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -780,21 +784,26 @@ body {
 }
 
 .sorting-list {
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.sorting-list-item {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
 }
 
 .hotel-cards-list {
-  width: 1021px;
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
 }
 
 .pagination {
-  width: 258px;
   display: flex;
   list-style: none;
   padding: 0;
@@ -802,25 +811,32 @@ body {
 }
 
 .pagination-container {
-  width: 1057px;
   display: flex;
-  justify-content: space-between;
+  width: 1057px;
+  margin: 0 auto;
 }
 
-.pagination-item {
-  width: 55px;
-  height: 55px;
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   font-weight: bold;
   color: #ffffff;
   text-decoration: none;
-  padding: 10px;
+  padding: 15px 15px;
   background-color: #83b3d3;
+}
+
+.pagination-quantity {
+ margin-left: auto;
 }
 
 .pagination-quantity-label {
