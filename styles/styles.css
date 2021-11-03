@@ -65,7 +65,6 @@ body {
 .hotel-cards-container {
  width: 1057px;
  margin: 0 auto;
- display: flex;
 }
 
 .sorting-container {
@@ -209,7 +208,7 @@ body {
 }
 
 .cards-link-title {
-  width: 211px;
+  display: block;
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
@@ -285,6 +284,9 @@ body {
   height: 37px;
   padding: 10px;
   text-transform: uppercase;
+  margin-top: 85px;
+  margin-left: 361px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hotel-cards-favorites {
@@ -569,7 +571,6 @@ body {
 
 .hotel-cards-image {
   display: block;
-  width: 180px;
   margin-right: 36px;
 }
 
@@ -867,8 +868,8 @@ body {
 
 .hotel-cards-list {
   display: flex;
-  flex-direction: column;
   width: 1057px;
+  flex-direction: column;
   list-style: none;
   padding: 0;
   margin: 0;
