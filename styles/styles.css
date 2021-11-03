@@ -379,7 +379,7 @@ body {
 
 .catalog-filter-price {
   display: flex;
-  width: 287px;
+  width: 320px;
   flex-wrap: wrap;
 }
 
@@ -502,13 +502,51 @@ body {
   background: inherit;
   font-size: 18px;
   line-height: 23px;
-  width: 140px;
+  width: 145px;
   height: 48px;
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 4px;
-  padding: 19px 10px;
   box-sizing: border-box;
+}
+
+.catalog-filter-input::placeholder {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.catalog-filter-input:hover::placeholder {
+  border: 2px solid #ffffff;
+  border-radius: 4px 0px 0px 4px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  position: absolute;
+  width: 145px;
+  height: 48px;
+}
+
+.catalog-filter-input:focus::placeholder {
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+  border-radius: 4px 0px 0px 4px;
+  position: absolute;
+  width: 145px;
+  height: 48px;
+}
+
+.catalog-filter-input:active::placeholder {
+  background: #756257;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px 0px 0px 4px;
+  position: absolute;
+  width: 145px;
+  height: 48px;
 }
 
 .hotel-cards-item h3 {
