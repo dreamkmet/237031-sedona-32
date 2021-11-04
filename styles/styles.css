@@ -130,54 +130,54 @@ body {
   display: block;
 }
 
-.logo {
-  width:138px;
-  margin-right: 198px;
-}
-
 .main-logo-link {
   display: block;
 }
 
 .main-logo-image {
   display: block;
+  width:138px;
+  align-items: center;
+  margin-right: 115px;
 }
 
 .main-navigation {
   display: flex;
+  justify-content: space-between;
   width: 1200px;
-  margin: 0 auto;
+  padding: 0 71px;
+}
+
+.main-navigation-item {
+  padding: 20px 0;
 }
 
 .main-navigation-link {
   display: block;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: inherit;
   background-color: inherit;
   text-decoration: none;
-  padding: 20px 15px;
+  margin-right: 33px;
 }
 
 .user-navigation-link {
   display: block;
-  padding: 20px 15px;
 }
 
 .user-navigation-link-search {
   width: 18px;
-  min-height: 18px;
 }
 
 .user-navigation-link-favorites {
   width: 32px;
-  min-height: 27px;
 }
 
 .user-navigation-link-here {
   width: 160px;
-  min-height: 37px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -320,9 +320,7 @@ body {
 }
 
 .features-header {
-  width: 720px;
-  margin: 0 auto;
-  margin-bottom: 79px;
+  padding: 63px 240px;
 }
 
 .features-header p {
@@ -335,9 +333,8 @@ body {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
-  width: 720px;
-  height: 80px;
-  margin-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 23px;
 }
 
 .features-intro {
@@ -345,8 +342,7 @@ body {
   line-height: 36px;
   font-weight: 400;
   color: #333333;
-  width: 720px;
-  height: 37px;
+  margin: 0;
 }
 
 .visually-hidden {
@@ -362,10 +358,8 @@ body {
   background-color: #ffffff;
   background-image: url("../images/page-main-intro-background.jpg");
   width: 1200px;
-  height: 352px;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  margin-bottom: 61px;
 }
 
 .subscribe-wrapper {
@@ -610,17 +604,18 @@ body {
   text-decoration: none;
   padding: 0;
   margin: 0;
-  width: 500px;
-  margin-left: 71px;
+}
+
+.user-navigation-item {
+  padding: 20px 0;
 }
 
 .user-navigation-list {
   display: flex;
   flex-wrap: wrap;
-  width: 290px;
   list-style: none;
   padding: 0;
-  margin-right: 71px;
+  margin: 0;
 }
 
 .features-list {
