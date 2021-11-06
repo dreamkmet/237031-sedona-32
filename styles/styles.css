@@ -580,7 +580,12 @@ body {
 }
 
 .download-button-inner {
-  margin-bottom: 61px;
+   width: 1057px;
+   margin: 0 auto;
+   padding: 30px 0;
+   border-top: 1px solid #E6E6E6;
+   border-bottom: 1px solid #E6E6E6;
+   margin-bottom: 31px;
 }
 
 .download-button {
@@ -594,8 +599,8 @@ body {
   background-color: #83b3d3;
   border: none;
   border-radius: 4px;
-  padding: 20px 240px;
-  display: flex;
+  padding: 20px 216px;
+  display: block;
   margin: 0 auto;
 }
 
@@ -882,6 +887,7 @@ body {
 
 .pagination-container {
   display: flex;
+  justify-content: space-between;
   width: 1057px;
   margin: 0 auto;
 }
@@ -905,9 +911,6 @@ body {
   background-color: #83b3d3;
 }
 
-.pagination-quantity {
- margin-left: auto;
-}
 
 .pagination-quantity-label {
   font-size: 18px;
