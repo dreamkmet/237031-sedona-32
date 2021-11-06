@@ -395,9 +395,11 @@ body {
 }
 
 .button-wrapper {
+  width: 160px;
   margin: 0;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  justify-content: center;
 }
 .catalog-filter-title {
   font-size: 20px;
@@ -420,7 +422,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 18px 35px;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
 .button-reset {
