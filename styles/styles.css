@@ -211,7 +211,7 @@ body {
   background-color: #756257;
   border-radius: 4px;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 10px 32px;
   margin-right: 8px;
 }
 
@@ -296,7 +296,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   border: none;
-  padding: 10px 30px;
+  padding: 10px 32px;
 }
 
 .features-wrapper {
