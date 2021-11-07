@@ -304,9 +304,9 @@ body {
 }
 
 .features-text {
-  margin: 0;
-  padding: 90px 88px;
   width: 400px;
+  padding: 90px;
+  margin: 0;
 }
 
 .features-text-color {
@@ -701,14 +701,16 @@ body {
 .advice-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0;
 }
 
-.advice-item {
-  padding: 90px 102px;
+.advice-text {
+  width: 400px;
+  padding: 90px;
   margin: 0;
 }
 
