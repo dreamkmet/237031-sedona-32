@@ -245,6 +245,7 @@ body {
 }
 
 .hotel-cards-type {
+  display: block;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
@@ -265,6 +266,7 @@ body {
 }
 
 .hotel-cards-price {
+  display: block;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
