@@ -617,7 +617,7 @@ body {
 .user-navigation-item {
   padding: 15px 0;
   margin-left: auto;
-} 
+}
 
 .user-navigation-list {
   display: flex;
@@ -736,10 +736,34 @@ body {
   margin: 0;
 }
 
-.advice-text {
+.advice-item {
   width: 400px;
   padding: 95px 87px;
-  margin: 0;
+}
+
+.advice-link {
+  display: block;
+  min-width: 72px;
+  min-height: 75px;
+  margin-bottom: 23px;
+}
+
+.advice-list .advice-item:nth-child(1) .advice-link {
+  background-image: url("../images/advice-images/advice-image-housing.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.advice-list .advice-item:nth-child(2) .advice-link {
+  background-image: url("../images/advice-images/advice-image-burger.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.advice-list .advice-item:nth-child(3) .advice-link {
+  background-image: url("../images/advice-images/advice-image-suvenir.svg");
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .advice-item h3 {
@@ -857,7 +881,8 @@ body {
   background-color: #83b3d3;
   border: none;
   border-radius: 0 10px 10px 0;
-  padding: 17px 35px;
+  width: 200px;
+  height: 60px;
 }
 
 .catalog-filter-wrapper {
