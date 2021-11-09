@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  min-width: 1200px;
+  min-width: 1240px;
   min-height: 100%;
   margin: 0;
   padding: 0;
@@ -46,7 +46,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1240px;
   margin: 0 auto;
 }
 
@@ -125,13 +125,13 @@ body {
 
 .main-logo-image {
   display: block;
-  margin-right: 100px;
+  margin-right: 155px;
 }
 
 .main-navigation {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 1240px;
   padding: 0 71px;
 }
 
@@ -367,7 +367,7 @@ body {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/page-main-intro-background.jpg");
-  width: 1200px;
+  width: 1240px;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -648,11 +648,11 @@ body {
 }
 
 .features-item:nth-child(1) {
-  width: 1200px;
+  width: 1240px;
 }
 
 .features-item:nth-child(2) {
-  width: 1200px;
+  width: 1240px;
 }
 
 .features-image {
