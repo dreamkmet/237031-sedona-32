@@ -144,7 +144,7 @@ body {
   color: inherit;
   background-color: inherit;
   text-decoration: none;
-  padding: 20px 0;
+  padding: 21px 0;
   margin-right: 33px;
 }
 
@@ -615,9 +615,9 @@ body {
 }
 
 .user-navigation-item {
-  padding: 20px 0;
+  padding: 15px 0;
   margin-left: auto;
-}
+} 
 
 .user-navigation-list {
   display: flex;
@@ -634,26 +634,23 @@ body {
 }
 
 .user-navigation-link {
+  position: relative;
   display: block;
-  padding: 24px 21px;
+  padding: 21px 0;
 }
 
+.user-navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
 
 .navigation-user .user-navigation-link {
   min-width: 20px;
   min-height: 20px;
-}
-
-.navigation-user .user-navigation-item:nth-child(1) .user-navigation-link {
-  background-image: url("../images/user-navigation-links/user-navigation-link-search.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.navigation-user .user-navigation-item:nth-child(2) .user-navigation-link {
-  background-image: url("../images/user-navigation-links/user-navigation-link-favorites.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .features-list {
