@@ -224,6 +224,45 @@ body {
   margin: 0;
 }
 
+.four-stars::before {
+  background-image : url("..//images/star-icon.svg"),
+    url("..//images/star-icon.svg"),
+    url("..//images/star-icon.svg"),
+    url("..//images/star-icon.svg");
+  width: 93px;
+  height: 17px;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-position: 0, 25px, 50px, 73px;
+  content: "";
+  margin-bottom: 68px;
+}
+
+.three-stars::before {
+  background-image : url("..//images/star-icon.svg"),
+    url("..//images/star-icon.svg"),
+    url("..//images/star-icon.svg");
+  width: 93px;
+  height: 17px;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-position: 0, 25px, 50px;
+  content: "";
+  margin-bottom: 68px;
+}
+
+.two-stars::before {
+  background-image : url("..//images/star-icon.svg"),
+    url("..//images/star-icon.svg");
+  width: 93px;
+  height: 17px;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-position: 0, 25px;
+  content: "";
+  margin-bottom: 68px;
+}
+
 .contacts-phone {
   display: block;
   padding: 15px;
