@@ -567,7 +567,6 @@ body {
   margin: 0;
 }
 
-
 .select-control {
   width: 247px;
   padding: 12px 19px;
@@ -941,7 +940,7 @@ body {
 }
 
 .subscribe-button {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 26px;
@@ -1004,7 +1003,7 @@ body {
   border-radius: 4px;
 }
 
- .card-grid-toggle svg {
+.card-grid-toggle svg {
   fill: #ffffff;
 }
 
