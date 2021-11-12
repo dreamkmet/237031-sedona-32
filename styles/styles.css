@@ -201,13 +201,18 @@ body {
   padding: 17px 150px;
 }
 
-.cards-link-title {
+.cards-link {
   display: block;
+  text-decoration: none;
+}
+
+.hotel-cards-title {
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #000000;
-  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 1px;
 }
 
 .button-cards {
