@@ -84,7 +84,6 @@ body {
 
 .page-copyright-link {
   display: block;
-  padding: 19px 23px;
 }
 
 .page-copyright-image {
@@ -148,6 +147,22 @@ body {
   margin-right: 33px;
 }
 
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.navigation-icon-circle {
+  position: absolute;
+  top: 2px;
+  left: 13px;
+  z-index: 1;
+}
+
 .user-navigation-item .user-navigation-link-here {
   width: 160px;
   font-size: 16px;
@@ -163,7 +178,14 @@ body {
 
 .wellcome-image {
   display: block;
+  padding: 46px 50px 40px;
   margin: 0 auto;
+}
+
+.wellcome-decoration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .hotel-search-link {
@@ -263,7 +285,6 @@ body {
 
 .contacts-phone {
   display: block;
-  padding: 15px;
   font-size: 40px;
   line-height: 40px;
   font-weight: inherit;
@@ -393,6 +414,7 @@ body {
 }
 
 .page-main-intro {
+  position: relative;
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/page-main-intro-background.jpg");
