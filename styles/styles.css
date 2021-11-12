@@ -425,6 +425,7 @@ body {
   background-image: url("../images/page-main-intro-background.jpg");
   width: 1200px;
   background-repeat: no-repeat;
+  min-height: 485px;
   background-size: 100% auto;
 }
 
