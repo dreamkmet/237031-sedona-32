@@ -238,16 +238,16 @@ body {
   opacity: 0.3;
 }
 
-.navigation-link:hover .navigation-icon-circle {
+.navigation-link:hover {
   fill: #756257;
 }
 
-.navigation-link:focus .navigation-icon-circle {
+.navigation-link:focus {
   fill: #756257;
 }
 
 .navigation-link:active .navigation-icon-circle {
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .navigation-link-here:hover {
@@ -266,10 +266,19 @@ body {
 }
 
 .navigation-icon-circle {
+  display: block;
   position: absolute;
-  top: 0;
-  left: 23px;
-  z-index: 1;
+  width: 19px;
+  height: 19px;
+  top: -3px;
+  right: 0;
+  border-radius: 50%;
+  background-color: #7db54f;
+  overflow: hidden;
+  font-size: 10px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .navigation-link-here {
@@ -306,7 +315,6 @@ body {
 
 .wellcome-image {
   display: block;
-  padding: 46px 50px 40px;
   margin: 0 auto;
 }
 
@@ -518,10 +526,6 @@ body {
   margin: 0;
 }
 
-.features-text-color {
-  background-color: #83b3d3;
-}
-
 .features-image-city {
   display: block;
 }
@@ -574,14 +578,12 @@ body {
 }
 
 .page-main-intro {
-  position: relative;
-  color: #000000;
   background-color: #ffffff;
-  background-image: url("../images/page-main-intro-background.jpg");
-  width: 1200px;
-  background-repeat: no-repeat;
-  min-height: 485px;
-  background-size: 100% auto;
+  background-image: url("../images/wellcome-decoration.svg"), url("../images/page-main-intro-background.jpg");
+  background-repeat: no-repeat no-repeat;
+  background-size: 100%, cover;
+  background-position: center bottom, center center;
+  padding: 50px 0 83px 0;
 }
 
 .subscribe-wrapper {
@@ -890,6 +892,7 @@ body {
 }
 
 .advice-title {
+  position: relative;
   font-size: 24px;
   line-height: 28px;
   font-weight: bold;
@@ -922,6 +925,18 @@ body {
   margin: 0;
 }
 
+.features-item {
+  background-color: #f0f5f9;
+}
+
+.features-item-color {
+  background-color: #82b3d3;
+}
+
+.features-item-background {
+  background-color: #e6f0f6;
+}
+
 .features-item-color h3 {
   color: #ffffff;
 }
@@ -942,43 +957,46 @@ body {
 
 .advice-item {
   width: 400px;
-  padding: 95px 87px;
+  padding: 184px 87px 79px 87px;
+  background-color: #f0f5f9;
+  box-sizing: border-box;
+}
+
+.advice-item-background {
+  background-color: #ffffff;
 }
 
 .house-image::before {
   content:'';
+  position: absolute;
+  bottom: 60px;
+  right: 80px;
   width: 72px;
   height: 75px;
   background-image: url("../images/advice-images/advice-image-housing.svg");
   background-repeat: no-repeat;
-  display: block;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 23px;
 }
 
 .burger-image::before {
+  position: absolute;
   content:'';
+  bottom: 60px;
+  right: 82px;
   width: 70px;
   height: 74px;
   background-image: url("../images/advice-images/advice-image-burger.svg");
   background-repeat: no-repeat;
-  display: block;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 23px;
 }
 
 .suvenir-image::before {
+  position: absolute;
   content:'';
+  bottom: 60px;
+  right: 82px;
   width: 64px;
   height: 76px;
   background-image: url("../images/advice-images/advice-image-suvenir.svg");
   background-repeat: no-repeat;
-  display: block;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 23px;
 }
 
 .advice-item h3 {
