@@ -381,10 +381,12 @@ body {
 
 .hotel-cards-stars {
   display: flex;
+  position: relative;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0;
   margin-left: auto;
+  padding: 85px 0 30px 0;
 }
 
 .hotel-cards-rating {
@@ -411,7 +413,8 @@ body {
   background-repeat: no-repeat;
   background-position: 0, 25px, 50px, 73px;
   content: "";
-  margin-bottom: 68px;
+  position: absolute;
+  top: 10px;
 }
 
 .three-stars::before {
@@ -424,7 +427,8 @@ body {
   background-repeat: no-repeat;
   background-position: 0, 25px, 50px;
   content: "";
-  margin-bottom: 68px;
+  position: absolute;
+  top: 10px;
 }
 
 .two-stars::before {
@@ -436,7 +440,8 @@ body {
   background-repeat: no-repeat;
   background-position: 0, 25px;
   content: "";
-  margin-bottom: 68px;
+  position: absolute;
+  top: 10px;
 }
 
 .contacts-phone {
@@ -513,6 +518,10 @@ body {
   text-transform: uppercase;
   border: none;
   padding: 10px 32px;
+}
+
+.hotel-cards-favorites-current {
+  background-color: #7db54f;
 }
 
 .features-wrapper {
@@ -1259,6 +1268,10 @@ body {
   background-color: #83b3d3;
 }
 
+.pagination-link-current {
+  color: #000000;
+  background-color: #f2f2f2;
+}
 
 .pagination-quantity-label {
   font-size: 18px;
