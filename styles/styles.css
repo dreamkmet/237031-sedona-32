@@ -1306,6 +1306,7 @@ body {
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1326,20 +1327,40 @@ body {
 .pagination-link {
   display: block;
   box-sizing: border-box;
-  width: 55px;
-  height: 55px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: bold;
   font-size: 20px;
   line-height: 26px;
-  text-align: center;
-  font-weight: bold;
   color: #ffffff;
+  width: 55px;
+  height: 55px;
   text-decoration: none;
-  padding: 15px 15px;
+  text-align: center;
+  padding: 11px;
+  border-radius: 4px;
   background-color: #83b3d3;
+  border: 3px solid transparent;
 }
+
+.pagination-link:hover {
+  background-color: #68A2CA;
+  outline: 0;
+}
+
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.pagination-link:focus {
+  border: solid 3px #83B3D3;
+  border-radius: 4px;
+  outline: 0;
+}
+
 
 .pagination-link-current {
   color: #000000;
+  border: 3px solid transparent;
   background-color: #f2f2f2;
 }
 
