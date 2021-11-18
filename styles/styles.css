@@ -785,15 +785,15 @@ body {
   position: relative;
   width: 20px;
   height: 20px;
-  padding: 3px;
 }
 
 .breadcrumbs-list-link:first-child svg {
   position: absolute;
-  top: 3px;
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  margin: auto;
 }
 
 .breadcrumbs-list-item {
@@ -806,7 +806,7 @@ body {
   position: absolute;
   width: 5px;
   height: 8px;
-  top: 10px;
+  top: 7px;
   right: -10px;
   background-image: url("../images/arrow.svg");
   background-repeat: no-repeat;
