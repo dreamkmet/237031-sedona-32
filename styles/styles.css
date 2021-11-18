@@ -783,8 +783,7 @@ body {
 }
 
 .breadcrumbs-list-item {
-  display: flex;
-  margin-left: auto;
+  position: relative;
   margin-right: 10px;
 }
 
