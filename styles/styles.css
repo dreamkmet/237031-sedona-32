@@ -776,15 +776,65 @@ body {
 }
 
 .breadcrumbs-list-link {
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 400;
-  padding: 6px 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.breadcrumbs-list-link:first-child {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+}
+
+.breadcrumbs-list-link:first-child svg {
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .breadcrumbs-list-item {
   position: relative;
-  margin-right: 10px;
+  margin-right: 16px;
+}
+
+.breadcrumbs-list-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 8px;
+  top: 10px;
+  right: -10px;
+  background-image: url("../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.breadcrumbs-list-link[href]:hover,
+.breadcrumbs-list-link[href]:hover path {
+  color:rgba(255, 255, 255, 0.6);
+  fill: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.breadcrumbs-list-link[href]:focus,
+.breadcrumbs-list-link[href]:hover path {
+  outline: none;
+  color:rgba(255, 255, 255, 1);
+  fill: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0 3px #83b3d3;
+  border-radius: 4px;
+}
+
+.breadcrumbs-list-link[href]:active,
+.breadcrumbs-list-link[href]:hover path {
+  color:rgba(255, 255, 255, 0.3);
+  fill: rgba(255, 255, 255, 0.3);
+  box-shadow: none;
 }
 
 .hotels-found {
@@ -1226,11 +1276,13 @@ body {
 
 .breadcrumbs-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  font-size: 16px;
+  line-height: 18px;
   padding: 0;
   margin: 0;
-  margin-bottom: 45px;
-  width: 111px;
+  margin-bottom: 40px;
 }
 
 .catalog-filter-list {
