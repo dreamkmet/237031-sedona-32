@@ -162,12 +162,11 @@ body {
 
 .main-logo-link {
   position: absolute;
+  width: 138px;
   top: -3px;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 138px;
-  height: 70px;
   margin: 0 auto;
   border: 3px solid transparent;
   border-radius: 10px;
@@ -178,11 +177,11 @@ body {
   display: flex;
   position: relative;
   justify-content: space-between;
-  width: 1200px;
-  padding: 0 71px;
+  padding: 0 71px 0 54px;
 }
 
 .main-navigation-item {
+  position: relative;
   padding: 20px 0;
 }
 
@@ -314,6 +313,7 @@ body {
 }
 
 .wellcome-image {
+  width: 458px;
   display: block;
   margin: 0 auto;
 }
@@ -353,8 +353,14 @@ body {
 }
 
 .cards-link {
-  display: block;
+  display: flex;
   text-decoration: none;
+  outline: 0;
+}
+
+.cards-link:focus .hotel-cards-title {
+  border: 3px solid #83B3D3;
+  border-radius: 10px;
 }
 
 .hotel-cards-title {
@@ -364,6 +370,14 @@ body {
   color: #000000;
   margin-top: 0;
   margin-bottom: 1px;
+}
+
+.cards-link:hover .hotel-cards-title{
+  color: #756257;
+}
+
+.cards-link:active .hotel-cards-title{
+  color: rgba(117, 98, 87, 0.3);
 }
 
 .button-cards {
@@ -379,6 +393,20 @@ body {
   margin-right: 8px;
 }
 
+.button-cards:focus {
+  background: #615048;
+  border: 3px solid #83B3D3;
+  outline: 0;
+}
+
+.button-cards:hover {
+  background: #615048;
+}
+
+.button-cards:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .hotel-cards-stars {
   display: flex;
   position: relative;
@@ -386,7 +414,7 @@ body {
   flex-wrap: wrap;
   margin: 0;
   margin-left: auto;
-  padding: 85px 0 30px 0;
+  padding: 85px 0 0 0;
 }
 
 .hotel-cards-rating {
@@ -520,8 +548,37 @@ body {
   padding: 10px 32px;
 }
 
+.hotel-cards-favorites:hover {
+  background-color: #68A2CA;
+  outline: 0;
+}
+
+.hotel-cards-favorites:focus {
+  background-color: #68A2CA;
+  border: 3px solid #756257;
+  border-radius: 4px;
+  outline: 0;
+}
+
+.hotel-cards-favorites:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .hotel-cards-favorites-current {
   background-color: #7db54f;
+}
+
+.hotel-cards-favorites-current:hover {
+  background-color: #6C9E42;
+}
+
+.hotel-cards-favorites-current:focus {
+  background-color: #6C9E42;
+  border: 3px solid #756257;
+}
+
+.hotel-cards-favorites-current:active {
+  color: rgba(255, 255, 255 0.3)
 }
 
 .features-wrapper {
@@ -812,12 +869,26 @@ body {
 .hotel-cards-item {
   display: flex;
   border-top: 1px solid #E6E6E6;
-  padding: 29px 0;
+  padding: 30px 0;
+  align-items: center;
 }
 
-.hotel-cards-image {
-  display: block;
+.hotel-cards-link-image {
+  display: flex;
   margin-right: 36px;
+}
+
+.hotel-cards-link-image:hover {
+  opacity: 0.6;
+}
+
+.hotel-cards-link-image:focus {
+  border: 3px solid #83B3D3;
+  outline: 0;
+}
+
+.hotel-cards-link-image:active {
+  opacity: 0.3;
 }
 
 .download-button-inner {
@@ -1227,7 +1298,6 @@ body {
 
 .hotel-cards-list {
   display: flex;
-  width: 1057px;
   flex-direction: column;
   list-style: none;
   padding: 0;
