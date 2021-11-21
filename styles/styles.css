@@ -87,7 +87,6 @@ body {
 
   display: flex;
   justify-content: end;
-  align-items: center;
   width: 160px;
 
   border: 3px solid transparent;
@@ -122,8 +121,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 160px;
   padding: 0;
   margin: 0;
+
   list-style: none;
 }
 
@@ -507,8 +508,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.footer-contacts {
+  border: 3px solid transparent;
+  border-radius: 10px;
+}
+
 .contacts-phone {
-  display: block;
+  padding: 15px;
 
   font-size: 40px;
   line-height: 40px;
@@ -516,9 +522,7 @@ body {
   color: #000000;
   text-transform: uppercase;
   text-decoration: none;
-
-  border: 3px solid transparent;
-  border-radius: 10px;
+  text-align: center;
 }
 
 .contacts-phone:hover {
@@ -528,7 +532,6 @@ body {
 .contacts-phone:focus {
   border: 3px solid #83b3d3;
   border-radius: 10px;
-  outline-offset: 10px;
 }
 
 .contacts-phone:active {
@@ -631,7 +634,7 @@ body {
 
 .features-text {
   width: 400px;
-  padding: 95px 87px;
+  padding: 95px 85px;
   margin: 0;
 }
 
