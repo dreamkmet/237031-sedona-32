@@ -377,6 +377,8 @@ body {
 
   text-decoration: none;
 
+  border: 3px solid transparent;
+  border-radius: 10px;
   outline: 0;
 }
 
@@ -388,11 +390,13 @@ body {
 .hotel-cards-title {
   margin-top: 0;
   margin-bottom: 1px;
+  padding: 10px 15px;
 
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #000000;
+  border: 3px solid transparent;
 }
 
 .cards-link:hover .hotel-cards-title{
@@ -505,7 +509,6 @@ body {
 
 .contacts-phone {
   display: block;
-  margin: 0;
 
   font-size: 40px;
   line-height: 40px;
@@ -515,7 +518,7 @@ body {
   text-decoration: none;
 
   border: 3px solid transparent;
-  outline: 0;
+  border-radius: 10px;
 }
 
 .contacts-phone:hover {
@@ -525,6 +528,7 @@ body {
 .contacts-phone:focus {
   border: 3px solid #83b3d3;
   border-radius: 10px;
+  outline-offset: 10px;
 }
 
 .contacts-phone:active {
@@ -552,6 +556,7 @@ body {
 
 .hotel-cards-buttons {
   margin: 0;
+  padding: 0 19px;
 }
 
 .hotel-cards-description {
@@ -559,6 +564,7 @@ body {
   justify-content: space-between;
   width: 235px;
   margin: 0;
+  padding: 0 19px;
 }
 
 .hotel-cards-price {
@@ -734,6 +740,7 @@ body {
 
   border: none;
   cursor: pointer;
+  border: 3px solid transparent;
 }
 
 .button-wrapper {
@@ -990,7 +997,8 @@ body {
 
 .hotel-cards-link-image {
   display: flex;
-  margin-right: 36px;
+  margin-right: 26px;
+  border: 3px solid transparent;
 }
 
 .hotel-cards-image {
@@ -1366,7 +1374,6 @@ body {
   color: #ffffff;
 
   background-color: #83b3d3;
-  border: solid 3px transparent;
   border-radius: 0 10px 10px 0;
 }
 
