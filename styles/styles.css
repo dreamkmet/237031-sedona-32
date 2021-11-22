@@ -28,7 +28,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-width: 1240px;
+  min-width: 1200px;
   min-height: 100%;
   margin: 0;
   padding: 0;
@@ -40,6 +40,7 @@ body {
   color: #000000;
 
   background-color: #f2f2f2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .main-container {
@@ -121,7 +122,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 160px;
   padding: 0;
   margin: 0;
 
@@ -374,13 +374,7 @@ body {
 }
 
 .cards-link {
-  display: flex;
-
   text-decoration: none;
-
-  border: 3px solid transparent;
-  border-radius: 10px;
-  outline: 0;
 }
 
 .cards-link:focus .hotel-cards-title {
@@ -389,15 +383,21 @@ body {
 }
 
 .hotel-cards-title {
-  margin-top: 0;
-  margin-bottom: 1px;
-  padding: 10px 15px;
+  position: relative;
+  top: -10px;
+
+  display: inline-block;
+  margin: 0;
+  padding: 4px 10px 4px 10px;
+  box-sizing: border-box;
 
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #000000;
+
   border: 3px solid transparent;
+  outline: 0;
 }
 
 .cards-link:hover .hotel-cards-title{
@@ -409,7 +409,7 @@ body {
 }
 
 .button-cards {
-  padding: 10px 32px;
+  padding: 5px 30px;
   margin-right: 8px;
 
   font-size: 16px;
@@ -538,18 +538,10 @@ body {
   color: rgba(117, 98, 87, 0.3);
 }
 
-
-.hotel-card {
-  display: flex;
-  flex-direction: column;
-  width: 535px;
-  margin: 0;
-}
-
 .hotel-cards-type {
   display: block;
   margin-top: 0;
-  margin-bottom: 31px;
+  margin-bottom: 10px;
 
   font-size: 18px;
   line-height: 23px;
@@ -559,15 +551,18 @@ body {
 
 .hotel-cards-buttons {
   margin: 0;
-  padding: 0 19px;
+  padding: 0 13px;
 }
 
 .hotel-cards-description {
+  position: relative;
+  top: -15px;
+
   display: flex;
   justify-content: space-between;
   width: 235px;
-  margin: 0;
-  padding: 0 19px;
+  margin-bottom: 8px;
+  padding: 0 14px;
 }
 
 .hotel-cards-price {
@@ -580,7 +575,7 @@ body {
 }
 
 .hotel-cards-favorites {
-  padding: 10px 32px;
+  padding: 5px 26px;
 
   font-size: 16px;
   line-height: 21px;
@@ -993,13 +988,17 @@ body {
 .hotel-cards-item {
   display: flex;
   padding: 30px 0;
-  align-items: center;
 
   border-top: 1px solid #e6e6e6;
 }
 
+.hotel-card {
+  margin: 0;
+  padding: 0;
+}
+
 .hotel-cards-link-image {
-  display: flex;
+  display: inline-block;
   margin-right: 26px;
   border: 3px solid transparent;
 }
