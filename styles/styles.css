@@ -59,7 +59,7 @@ body {
 }
 
 .sorting {
-  padding: 10px 0;
+  padding: 10px 0 36px 0 ;
 }
 
 .sorting-container {
@@ -480,7 +480,8 @@ body {
 
 .three-stars::before {
   position: absolute;
-  top: 10px;
+  top: 9px;
+  right: 21px;
   width: 93px;
   height: 17px;
   content: "";
@@ -495,7 +496,8 @@ body {
 
 .two-stars::before {
   position: absolute;
-  top: 10px;
+  top: 4px;
+  right: 10px;
   width: 93px;
   height: 17px;
   content: "";
@@ -914,8 +916,10 @@ body {
 }
 
 .select-control {
-  width: 285px;
-  padding: 8px 15px;
+  width: 287px;
+  min-height: 48px;
+  padding: 10px 12px;
+  margin-right: 28px;
   box-sizing: border-box;
 
   border: 2px solid #e6e6e6;
@@ -989,8 +993,13 @@ body {
   border-radius: 4px 0px 0px 4px;
 }
 
+.hotel-cards-list:nth-child(2) .hotel-cards-item {
+  padding-top: 25px;
+}
+
 .hotel-cards-item {
   display: flex;
+  justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 31px;
 
@@ -1003,15 +1012,15 @@ body {
 }
 
 .hotel-cards-link-image {
-  display: block;
+  display: inline-block;
   margin-right: 18px;
   border: 3px solid transparent;
 }
 
 .hotel-cards-image {
   display: block;
-  max-width: 180px;
-  height: auto;
+  min-width: 180px;
+  min-height: 120px;
   object-fit: cover;
 }
 
@@ -1426,7 +1435,7 @@ body {
 }
 
 .sorting-list-item {
-  padding: 0 8px;
+  padding: 0 3px;
 }
 
 .card-grid-toggle {
