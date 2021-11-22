@@ -991,7 +991,8 @@ body {
 
 .hotel-cards-item {
   display: flex;
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 31px;
 
   border-top: 1px solid #e6e6e6;
 }
@@ -1002,8 +1003,8 @@ body {
 }
 
 .hotel-cards-link-image {
-  display: inline-block;
-  margin-right: 26px;
+  display: block;
+  margin-right: 18px;
   border: 3px solid transparent;
 }
 
