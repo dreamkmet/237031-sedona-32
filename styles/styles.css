@@ -40,7 +40,7 @@ body {
   color: #000000;
 
   background-color: #f2f2f2;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .main-container {
@@ -383,7 +383,7 @@ body {
 
 .hotel-cards-title {
   position: relative;
-  top: -10px;
+  top: -5px;
 
   display: inline-block;
   margin: 0;
@@ -1000,8 +1000,8 @@ body {
 .hotel-cards-item {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 31px;
+  padding-top: 35px;
+  padding-bottom: 30px;
 
   border-top: 1px solid #e6e6e6;
 }
@@ -1038,7 +1038,7 @@ body {
 }
 
 .download-button-inner {
-   padding: 30px 0;
+   padding: 25px 0 32px 0;
 
    border-top: 1px solid #e6e6e6;
    border-bottom: 1px solid #e6e6e6;
@@ -1046,8 +1046,10 @@ body {
 
 .download-button {
   display: block;
+  width: 625px;
   margin: 0 auto;
-  padding: 20px 216px;
+  padding-top: 12px;
+  padding-bottom: 9px;
 
   font-family: "PT sans", sans-serif;
   font-style: normal;
@@ -1055,10 +1057,12 @@ body {
   line-height: 26px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
 
   background-color: #83b3d3;
-  border: none;
+  border: 3px solid transparent;
+  outline: 0;
   border-radius: 4px;
 }
 
