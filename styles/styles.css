@@ -45,6 +45,7 @@ body {
 
 .main-container {
   flex-grow: 1;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .sorting {
-  padding: 10px 0 36px 0 ;
+  padding: 48px 5px 42px 0;
 }
 
 .sorting-container {
@@ -281,8 +282,8 @@ body {
 
 .popover-favourites {
   position: absolute;
-  top: 56px;
-  left: 517px;
+  top: 55px;
+  left: 520px;
 
   display: block;
   width: 400px;
@@ -430,8 +431,8 @@ body {
   display: block;
   width: 100%;
   padding-top: 18px;
-  padding-bottom: 19px;
-  margin-top: 15px;
+  padding-bottom: 17px;
+  margin-top: 7px;
   margin-bottom: 0;
 
   font-family: "PT Sans", "Arial", sans-serif;
@@ -578,8 +579,7 @@ body {
 }
 
 .button-cards {
-  padding: 5px 30px;
-  margin-right: 8px;
+  padding: 5px 28px;
 
   font-size: 16px;
   line-height: 21px;
@@ -731,7 +731,7 @@ body {
 
   display: flex;
   justify-content: space-between;
-  width: 235px;
+  width: 262px;
   margin-bottom: 8px;
   padding: 0 14px;
 }
@@ -746,8 +746,11 @@ body {
 }
 
 .hotel-cards-favorites {
-  padding: 5px 26px;
+  display: inline-block;
+  padding: 5px 31px;
+  vertical-align: middle;
 
+  font-family: "PT Sans", "Arial" sans-serif;
   font-size: 16px;
   line-height: 21px;
   font-weight: bold;
@@ -777,7 +780,21 @@ body {
 }
 
 .hotel-cards-favorites-current {
+  display: inline-block;
+  padding: 5px 31px;
+  vertical-align: middle;
+
+  font-family: "PT Sans", "Arial" sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+
   background-color: #7db54f;
+  border: none;
+  border-radius: 4px;
 }
 
 .hotel-cards-favorites-current:hover {
@@ -884,6 +901,10 @@ body {
   background-color: #ffffff;
 }
 
+.catalog {
+  padding: 28px 0;
+}
+
 .catalog-filter {
   display: flex;
   flex-wrap: wrap;
@@ -927,7 +948,7 @@ body {
 }
 .catalog-filter-title {
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 29px;
 
   font-size: 20px;
   line-height: 26px;
@@ -986,7 +1007,7 @@ body {
 .background-wrapper {
   display: block;
   margin: 0;
-  padding: 35px 71px 72px 71px;
+  padding: 30px 50px 20px 70px;
 
   color: #ffffff;
 
@@ -997,12 +1018,11 @@ body {
 }
 
 .inner-header {
-  margin-bottom: 42px;
+  margin-bottom: 14px;
 }
 
 .inner-header-title {
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin: 0;
 
   font-size: 60px;
   line-height: 78px;
@@ -1018,14 +1038,14 @@ body {
   position: relative;
 
   display: block;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 .breadcrumbs-list-link:first-child svg {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 4px;
   right: 0;
   left: 0;
 
@@ -1035,15 +1055,15 @@ body {
 .breadcrumbs-list-item {
   position: relative;
 
-  margin-right: 26px;
+  margin-right: 21px;
 }
 
 .breadcrumbs-list-item:not(:last-child)::after {
   position: absolute;
   width: 5px;
   height: 8px;
-  top: 7px;
-  right: -10px;
+  top: 6px;
+  right: -9px;
   content: "";
 
   background-image: url("../images/arrow.svg");
@@ -1052,27 +1072,19 @@ body {
   background-size: 100% 100%;
 }
 
-.breadcrumbs-list-link[href]:hover,
-.breadcrumbs-list-link[href]:hover path {
-  color:rgba(255, 255, 255, 0.6);
-  fill: rgba(255, 255, 255, 0.6);
-  cursor: pointer;
+
+.breadcrumbs-list-link:hover {
+  opacity: 0.6;
 }
 
-.breadcrumbs-list-link[href]:focus,
-.breadcrumbs-list-link[href]:hover path {
-  outline: none;
-  color:rgba(255, 255, 255, 1);
-  fill: rgba(255, 255, 255, 1);
-  box-shadow: 0 0 0 3px #83b3d3;
+
+.breadcrumbs-list-link:focus {
+  outline: 3px solid #83B3D3;
   border-radius: 4px;
 }
 
-.breadcrumbs-list-link[href]:active,
-.breadcrumbs-list-link[href]:hover path {
-  color:rgba(255, 255, 255, 0.3);
-  fill: rgba(255, 255, 255, 0.3);
-  box-shadow: none;
+.breadcrumbs-list-link:active {
+  opacity: 0.3;
 }
 
 .hotels-found {
@@ -1165,12 +1177,13 @@ body {
 
 .hotel-cards-list:nth-child(2) .hotel-cards-item {
   padding-top: 25px;
+  border: none;
 }
 
 .hotel-cards-item {
   display: flex;
   justify-content: space-between;
-  padding-top: 35px;
+  padding-top: 28px;
   padding-bottom: 30px;
 
   border-top: 1px solid #e6e6e6;
