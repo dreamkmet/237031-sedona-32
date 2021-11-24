@@ -55,8 +55,8 @@ body {
 }
 
 .hotel-cards-container {
- width: 1057px;
- margin: 0 auto;
+  width: 1057px;
+  margin: 0 auto;
 }
 
 .sorting {
@@ -513,6 +513,7 @@ body {
 .wellcome-image {
   display: block;
   margin: 0 auto;
+  max-width: 458px;
 }
 
 .wellcome-decoration {
@@ -884,7 +885,7 @@ body {
 .page-main-intro {
   padding: 50px 0 83px 0;
 
-  background-color: #ffffff;
+  background-color: rgba(63, 94, 114, 1);;
   background-image: url("../images/wellcome-decoration.svg"), url("../images/page-main-intro-background.jpg");
   background-repeat: no-repeat no-repeat;
   background-size: 100%, cover;
@@ -910,7 +911,7 @@ body {
   background-size: cover;
   min-height: 411px;
   background-image: url("../images/subscribe-background.jpg");
-  background-color: #ffffff;
+  background-color: rgba(63, 94, 114, 1);;
 }
 
 .catalog-filter {
@@ -923,7 +924,7 @@ body {
 
 .catalog-filter-group {
   margin: 0;
-  margin-right: 66px;
+  margin-right: 62px;
   margin-top: 7px;
   padding: 0;
 
@@ -1044,7 +1045,7 @@ body {
   align-items: center;
   margin: 0 auto;
   margin-right: 0;
-  padding-bottom: 22px;
+  padding-bottom: 23px;
 }
 .catalog-filter-title {
   margin-top: 0;
@@ -1058,7 +1059,6 @@ body {
 
 .cost .catalog-filter-title {
   margin-bottom: 37px;
-  margin-left: 3px;
 }
 
 .button-enter {
@@ -1112,6 +1112,7 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  border: 3px solid transparent;
 }
 
 .button-reset:hover {
@@ -1124,14 +1125,15 @@ body {
 
 .control {
   position: relative;
+
   display: block;
+  padding-left: 40px;
 }
 
 .control-label {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
-  margin-left: 19px;
 }
 
 .catalog-filter-item {
@@ -1160,7 +1162,7 @@ body {
 }
 
 .control-input:hover ~ .control-mark {
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .control-input:focus ~ .control-mark {
@@ -1179,8 +1181,8 @@ body {
   width: 13px;
   height: 10px;
 
-  background-color: #ffffff;
   background-image: url("../images/tick.svg");
+  background-color: #ffffff;
   content: "";
 }
 
@@ -1203,10 +1205,6 @@ body {
 
 .housing {
   margin-right: 161px;
-}
-
-.housing .control-label {
-  margin-left: 13px;
 }
 
 .background-wrapper {
@@ -1377,6 +1375,13 @@ body {
   box-sizing: border-box;
   background-color: transparent;
   border: 2px solid #ffffff;
+  appearance: none;
+}
+
+.catalog-filter-input::-webkit-outer-spin-button,
+.catalog-filter-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
 
 .catalog-filter-input::placeholder {
@@ -1448,7 +1453,7 @@ body {
 
 .hotel-cards-image {
   display: block;
-  min-width: 180px;
+  max-width: 180px;
   min-height: 120px;
   object-fit: cover;
 }
@@ -1467,10 +1472,10 @@ body {
 }
 
 .download-button-inner {
-   padding: 25px 0 32px 0;
+  padding: 25px 0 32px 0;
 
-   border-top: 1px solid #e6e6e6;
-   border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .download-button {
