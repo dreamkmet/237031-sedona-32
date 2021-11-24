@@ -135,7 +135,7 @@
           <h2 class="visually-hidden">Фильтр гостиниц Седоны</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="GET">
             <div class="catalog-filter-wrapper">
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group infra">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -162,7 +162,7 @@
                 </ul>
               </fieldset>
 
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group housing">
                 <legend class="catalog-filter-title">Тип жилья:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -189,26 +189,33 @@
                 </ul>
               </fieldset>
 
-              <fieldset class="catalog-filter-group catalog-filter-price">
+              <fieldset class="catalog-filter-group cost">
                 <legend class="catalog-filter-title">Стоимость, ₽::</legend>
-                <label class="catalog-filter-label">от
-                  <input class="catalog-filter-input" type="number" name="min-price">
-                </label>
-                <label class="catalog-filter-label">до
-                  <input class="catalog-filter-input" type="number" name="max-price">
-                </label>
-                <div class="range-button-wrapper">
-                  <button class="range-toggle toggle-min" type="button">
-                    <span class="visually-hidden">Изменить минимальную цену.</span>
-                  </button>
-                  <button class="range-toggle toggle-max" type="button">
-                    <span class="visually-hidden">Изменить максимальную цену.</span>
-                  </button>
+                <div class="filter-range-container">
+                  <div class="range-block-change">
+                    <div class="range-block-item">
+                      <input class="catalog-filter-input cost-min" type="number" name="min-price" id="min" value="0" min="0" max="9000">
+                      <label for="min">от</label>
+                    </div>
+                    <div class="range-block-item">
+                      <input class="catalog-filter-input cost-max" type="number" name="max-price" id="max" value="9000" min="0"
+                        max="9000">
+                      <label for="max">до</label>
+                    </div>
+                  </div>
+                  <div class="filter-toggle">
+                    <div class="range-bar">
+                      <button class="filter-toggle-item filter-toggle-item-min" type="button"
+                        aria-label="Изменить минимальную цену."></button>
+                      <button class="filter-toggle-item filter-toggle-item-max" type="button"
+                        aria-label="Изменить максимальную цену."></button>
+                    </div>
+                  </div>
                 </div>
               </fieldset>
               <div class="button-wrapper">
-                <button class="button button-enter" type="submit">Применить</button>
-                <button class="button button-reset" type="reset">Сбросить</button>
+                <button class="button-enter" type="submit">Применить</button>
+                <button class="button-reset" type="reset">Сбросить</button>
               </div>
             </div>
           </form>
