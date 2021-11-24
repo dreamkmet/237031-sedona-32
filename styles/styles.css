@@ -84,6 +84,10 @@ body {
   background-color: #ffffff;
 }
 
+.main-page-footer {
+  padding: 25px 70px;
+}
+
 .page-copyright-link {
   position: relative;
 
@@ -818,7 +822,8 @@ body {
 
 .features-text {
   width: 400px;
-  padding: 95px 85px;
+  height: 384px;
+  padding: 87px 90px;
   margin: 0;
 }
 
@@ -832,7 +837,7 @@ body {
 
 .features-header {
   margin: 0;
-  padding: 63px 240px;
+  padding: 63px 240px 84px 240px;
 }
 
 .features-header p {
@@ -841,7 +846,7 @@ body {
 
 .features-slogan {
   margin-top: 0;
-  margin-bottom: 23px;
+  margin-bottom: 31px;
 
   font-size: 30px;
   line-height: 36px;
@@ -894,10 +899,16 @@ body {
 }
 
 .main-subscribe-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 85px 200px;
+
   color: #ffffff;
 
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  min-height: 411px;
   background-image: url("../images/subscribe-background.jpg");
   background-color: #ffffff;
 }
@@ -1548,7 +1559,7 @@ body {
 
 .features-title {
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 
 
   font-size: 24px;
@@ -1561,7 +1572,7 @@ body {
 .advice-title {
   position: relative;
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: 18px;
 
   font-size: 24px;
   line-height: 28px;
@@ -1579,7 +1590,7 @@ body {
 
 .features-number {
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 
   font-size: 18px;
   line-height: 21px;
@@ -1629,7 +1640,7 @@ body {
 
 .advice-item {
   width: 400px;
-  padding: 184px 87px 79px 87px;
+  padding: 180px 80px 88px 80px;
   box-sizing: border-box;
 
   background-color: #f0f5f9;
@@ -1641,8 +1652,8 @@ body {
 
 .house-image::before {
   position: absolute;
-  bottom: 60px;
-  right: 80px;
+  bottom: 49px;
+  right: 84px;
   width: 72px;
   height: 75px;
   content:'';
@@ -1653,8 +1664,8 @@ body {
 
 .burger-image::before {
   position: absolute;
-  bottom: 60px;
-  right: 82px;
+  bottom: 50px;
+  right: 85px;
   width: 70px;
   height: 74px;
   content:'';
@@ -1665,8 +1676,8 @@ body {
 
 .suvenir-image::before {
   position: absolute;
-  bottom: 60px;
-  right: 82px;
+  bottom: 50px;
+  right: 87px;
   width: 64px;
   height: 76px;
   content:'';
@@ -1685,14 +1696,14 @@ body {
 
 .hotel-search {
   margin: 0;
-  padding: 91px 305px;
+  padding: 91px 300px;
 
   text-align: center;
 }
 
 .hotel-accent {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 27px;
 
   font-size: 30px;
   line-height: 36px;
@@ -1703,7 +1714,7 @@ body {
 
 .hotel-description {
   margin-top: 0;
-  margin-bottom: 73px;
+  margin-bottom: 53px;
 
   font-size: 22px;
   line-height: 26px;
